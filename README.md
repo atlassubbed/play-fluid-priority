@@ -1,6 +1,6 @@
 # play-fluid-priority
 
-Variabile diffing priority in Relax.
+Variable diffing priority in Relax.
 
 ---
 

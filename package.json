@@ -2,7 +2,7 @@
   "name": "play-fluid-priority",
   "_title": "",
   "version": "1.0.0",
-  "description": "Variabile diffing priority in Relax.",
+  "description": "Variable diffing priority in Relax.",
   "scripts": {
     "test-server": "mocha-webpack --colors --watch --webpack-config webpack.dev.js --recursive './test/**/*.test.js' || true",
     "test": "mocha-webpack --colors --webpack-config webpack.dev.js --recursive './test/**/*.test.js'",
