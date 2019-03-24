@@ -10,7 +10,7 @@ export const
   numDiffs = val(0),
   diffsAvoided = val(0),
   dim = val(8, shouldUpdate),
-  width = val(225),
+  width = val(260),
   inputTau = val(100),
   networkPeriod = val(17),
   isTauSplitting = val(false),
