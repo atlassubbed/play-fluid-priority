@@ -21,3 +21,7 @@ There are lots of parameters to fiddle with:
 
 
 All of these parameters are fully reactive. As soon as you update them, you'll see the changes in real time.
+
+### hint
+
+Try entering bigger numbers for **levels**, **dimension**, and **width** if you wanna see more action.
