@@ -2,6 +2,7 @@ import { networkPeriod, viewCount, numCounters, diffsAvoided } from "../shared";
 import { comp } from "atlas-munchlax";
 import { Frame, diff } from "atlas-relax";
 import { t } from "atlas-relax-jsx-pragmas";
+/**@jsx t*/
 
 // this simulates a socket or long poll over the network for a counter
 class ViewCountClient extends Frame {

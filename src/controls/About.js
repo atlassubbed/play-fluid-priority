@@ -1,6 +1,7 @@
 import { t } from "atlas-relax-jsx-pragmas";
 import { obs } from "atlas-munchlax"
 import { isTauSplitting } from "../shared";
+/**@jsx t*/
 
 const About = obs(() => [
   <h4>about</h4>,

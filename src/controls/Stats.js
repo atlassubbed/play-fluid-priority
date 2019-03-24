@@ -1,6 +1,7 @@
 import { t } from "atlas-relax-jsx-pragmas";
 import { obs } from "atlas-munchlax";
 import { viewCount, numDiffs, numCounters, diffsAvoided } from "../shared";
+/**@jsx t*/
 
 const Stats = obs(() => [
   <h4>view real-time stats</h4>,

@@ -2,7 +2,7 @@ import { t } from "atlas-relax-jsx-pragmas";
 import { obs } from "atlas-munchlax";
 import Piece, { sq } from "./Piece";
 import { dim, width, pieceWidth, fontSize, tauLevels } from "../shared";
-
+/**@jsx t*/
 const Board = obs((temp, node) => {
   const rows = [];
   for (let i = 0; i < dim(); i++){

@@ -3,6 +3,7 @@ import { t } from "atlas-relax-jsx-pragmas";
 import { viewCountClient } from "../network";
 import { viewCount, numDiffs, mousePos } from "../shared";
 import TauProvider from "./TauProvider";
+/**@jsx t*/
 
 const sq = w => `width: ${w}px; height: ${w}px;`
 

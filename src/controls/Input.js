@@ -1,6 +1,7 @@
 import { t } from "atlas-relax-jsx-pragmas";
 import { obs } from "atlas-munchlax";
 import { inputTau } from "../shared";
+/**@jsx t*/
 
 const forceBetween = (min, val, max) => {
   val = Number(val);

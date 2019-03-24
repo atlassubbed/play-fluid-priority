@@ -2,6 +2,7 @@ import { t } from "atlas-relax-jsx-pragmas";
 import Knobs from "./Knobs";
 import Stats from "./Stats";
 import About from "./About";
+/**@jsx t*/
 
 const Controls = () => (
   <div>

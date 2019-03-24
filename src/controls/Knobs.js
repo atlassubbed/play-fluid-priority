@@ -1,6 +1,7 @@
 import { t } from "atlas-relax-jsx-pragmas";
 import { dim, width, inputTau, networkPeriod, maxTau, tauLevels } from "../shared";
 import Input from "./Input";
+/**@jsx t*/
 
 const Knobs = () => [
   <h4>edit reactive params</h4>,

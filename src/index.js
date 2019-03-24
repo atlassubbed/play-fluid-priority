@@ -5,9 +5,7 @@ import "./styles.css";
 import { mousePos, isTauSplitting } from "./shared";
 import Board from "./board";
 import Controls from "./controls";
-
-// need this for codesandbox support
-window.React = { createElement: t };
+/**@jsx t*/
 
 // play around with rIC rAF for bettr smoothness
 
