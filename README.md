@@ -25,3 +25,7 @@ All of these parameters are fully reactive. As soon as you update them, you'll s
 ### hint
 
 Try entering bigger numbers for **levels**, **dimension**, and **width** if you wanna see more action.
+
+### made with 💜
+
+[Relax](https://github.com/atlassubbed/atlas-relax)
