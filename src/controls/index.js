@@ -6,7 +6,7 @@ import About from "./About";
 
 const Controls = () => (
   <div>
-    <h1>fluid priority</h1>
+    <h2>fluid priority</h2>
     <Knobs/>
     <Stats/>
     <About/>

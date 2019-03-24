@@ -9,12 +9,12 @@ export const
   viewCount = val(0),
   numDiffs = val(0),
   diffsAvoided = val(0),
-  dim = val(10, shouldUpdate),
-  width = val(338),
+  dim = val(8, shouldUpdate),
+  width = val(225),
   inputTau = val(100),
   networkPeriod = val(17),
   isTauSplitting = val(false),
-  tauLevels = val(3),
+  tauLevels = val(2),
   maxTau = val(1024),
   // some of these could be computed on-the-fly in components
   // but this demonstrates how one can use derived/computed values

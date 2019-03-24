@@ -5,7 +5,7 @@ import { isTauSplitting } from "../shared";
 
 const About = obs(() => [
   <h4>about</h4>,
-  <div class={`${isTauSplitting() ? "" : "no-"}highlight`} style="max-width: 320px; padding: 15px;">
+  <div class={`${isTauSplitting() ? "" : "no-"}highlight`} style="max-width: 320px; padding: 10px;">
     { isTauSplitting() ?
       "The counters closer to your mouse reflect a more accurate view count because they have a higher priority." :
       "Every counter on the board displays the same (simulated) view count. Try hovering over the board."
