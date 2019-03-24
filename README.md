@@ -4,6 +4,8 @@ Variable diffing priority in Relax.
 
 ---
 
+<img src="https://user-images.githubusercontent.com/38592371/54886472-9aa66800-4e5e-11e9-8f83-608f701d5d6e.gif">
+
 ## live on codesandbox
 
 https://codesandbox.io/s/github/atlassubbed/play-fluid-priority
