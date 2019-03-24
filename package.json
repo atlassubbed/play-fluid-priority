@@ -13,7 +13,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/atlassubbed/play-fluid-priority.git"
   },
   "keywords": [],
   "author": "atlassubbed <atlassubbed@gmail.com>",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
     "clean-webpack-plugin": "^0.1.19",
@@ -41,5 +42,14 @@
   "engines": {
     "node": "^10.1.0",
     "npm": "^6.0.1"
-  }
+  },
+  "dependencies": {
+    "atlas-dot": "^1.0.1",
+    "atlas-mini-dom": "^1.0.1",
+    "atlas-munchlax": "^1.3.0",
+    "atlas-relax": "^1.1.0",
+    "atlas-relax-jsx-pragmas": "^1.0.1"
+  },
+  "homepage": "https://github.com/atlassubbed/play-fluid-priority#readme",
+  "bugs": "https://github.com/atlassubbed/play-fluid-priority/issues"
 }

@@ -1,0 +1,1 @@
+export { viewCountClient } from "./ViewCountClient"

@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  font-family: sans-serif;
+  /* space-around causes jitter */
+  justify-content: space-between;
+}
+.board {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.piece {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-option {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.input {
+  height: 20px;
+  font-size: 20px;
+}
+.mono {
+  font-family: monospace;
+  margin-left: 15px;
+}
+
+.highlight {
+  background-color: #ccf;
+  animation-name: highlight;
+  animation-duration: 500ms;
+}
+.no-highlight {
+  background-color: #fff;
+  animation-name: no-highlight;
+  animation-duration: 500ms;
+}
+@keyframes no-highlight {
+  0% {
+    background-color: #ccf;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+@keyframes highlight {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #ccf;
+  }
+}
